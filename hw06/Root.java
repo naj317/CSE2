@@ -12,7 +12,7 @@ import java.util.Scanner;
 //define a class
 public class Root {
     
-    //define main method
+    //defin main method
     public static void main (String [] arg) {
     
         //declare scanner
@@ -21,28 +21,29 @@ public class Root {
         System.out.print("Enter a double to find the square root: ");
         double R = myScanner.nextDouble();
         
-        //define variable
         double low = 0;
         double high = 1 + R;
-        double difference = high - low;
-        double middle = (difference/2)+low;
-        double midSquare = Math.pow(middle,2);
+        double difference; 
+        double middle = 0;
+      
+        int Loop=1;
         
-        //while statement should stop once difference is small enough
-        while (difference < (.0000001*(1+R))) {
-            if (midSquare>R) {
-                midSquare = high;
+        while (Loop==1) {
+            middle= (high+low)/2;
+            if ((Math.pow(middle,2))>R) {
+                high = middle;
             }
-            else if (midSquare<R) {
-                midSquare = low;
-            
+            else if ((Math.pow(middle,2))<R) {
+                low = middle;
             }
-                
-        difference ++;    
-        midSquare ++;
+              
+            difference = (high - low);    
+        
+            if(difference <= (.0000001*(1+R))){
+            Loop++;
+            }
+       
         }
-        
-        System.out.println("The square root of " + R + " is " + middle);
-        
-    }//close main method
-}//close class
+        System.out.println("The square root of " + R + " is " + (middle)+"");
+    }
+}
