@@ -49,7 +49,7 @@ public class Roulette {
             
         } //store values 100000 times
 
-        System.out.println("You didn't win anything " + countLoss + " times.");
+        System.out.println("You didn't win anythining " + countLoss + " times.");
         System.out.println("You profited " + countProfit + " times.");
         System.out.println("You made $" + winnings);
         System.out.println("You made a profit of $" + (100000 - winnings));
