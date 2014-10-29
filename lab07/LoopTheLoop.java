@@ -19,7 +19,7 @@ public class LoopTheLoop {
     //define main method
     public static void main (String [] args) {
 
-        for (int nStars = 0; nStars < 10; nStars++) {
+        for (int nStars = 0; nStars <= 10; nStars++) {
             System.out.print("*");
         }
         System.out.println("");

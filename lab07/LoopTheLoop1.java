@@ -22,11 +22,11 @@ public class LoopTheLoop1 {
         int nStars = 0;
         int i = 0;
         
-        for (nStars = 0; nStars <= 10; nStars++) {
+        for (nStars = 1; nStars <= 10; nStars++) {
             for (i = 0; i < nStars; i++){
                 System.out.print("*");
             }
-            System.out.println("");    
+            System.out.println();    
         }
     }
 }
