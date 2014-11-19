@@ -2,6 +2,11 @@
 //CSE2
 //
 
+//  compile
+//      javac PokerOdd.java
+//  run
+//      java PokerOdd
+
 //import random 
 import java.util.Random;
 
@@ -13,7 +18,7 @@ public class PokerOdds{
     
     public static void main(String [] arg){ //main method
         showHands();
-        //simulateOdds();
+        simulateOdds();
     }
     
     public static void showHands() {
@@ -27,7 +32,7 @@ public class PokerOdds{
         }
     }
     
-    //public static void simulateOdds() {
+    public static void simulateOdds() {
         
-    //}
+    }
 }

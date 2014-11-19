@@ -1,6 +1,11 @@
 //Natalie Jacobs
 //CSE 002
-//
+//hw 10 - FindDuplicates
+
+//  compile
+//      javac FindDuplicates.java
+//  run
+//      java FindDuplicates
 
 
 //import scanner
