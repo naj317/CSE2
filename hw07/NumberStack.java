@@ -143,6 +143,7 @@ public class NumberStack {
                 i++;
             } while (i < input);
         }
+        
         else //if user input does not satisfy if statement
             System.out.println("You did not enter an integer between 1 and 9");
 

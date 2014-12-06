@@ -27,13 +27,13 @@ public class Enigma1{
     System.out.println("You entered "+x+"%");
     
     //print out the proportion remaining for select percentages
-    if(1-x/100==0.93)  //when the user enters 7
+    if((100-x)/100==0.93)  //when the user enters 7
       System.out.println("The proportion remaining is "+0.93);
-    else if(1-x/100==0.59)//when the user enters 41
+    else if((100-x)/100==0.59)//when the user enters 41
       System.out.println("The proportion remaining is "+0.59);
     else if(1-x/100==0.86)//when the user enters 14
       System.out.println("The proportion remaining is "+0.86);
-    else if(1-x/100==0.67)//when the user enters 33
+    else if((100-x)/100==0.67)//when the user enters 33
       System.out.println("The proportion remaining is "+0.67);
     else if(1-x/100==0.4)//when the user enters 60
       System.out.println("The proportion remaining is "+0.40);
@@ -45,7 +45,7 @@ public class Enigma1{
  *    and fix the errors)
  *    Hint: What kinds of input are unacceptable? What kinds of
  *        acceptable input don't produce the correct answer?
- * 
+ *    
  * 
  * 
  * 

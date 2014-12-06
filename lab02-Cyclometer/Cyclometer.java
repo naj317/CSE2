@@ -39,7 +39,7 @@ public class Cyclometer{
         (secsTrip1/secondsPerMinute)+" minutes and had "+countsTrip2+" counts.");
         System.out.println("Trip 2 took "+
         (secsTrip2/secondsPerMinute)+" minutes and had "+countsTrip2+" counts.");
-        //run the calculations; store the values. 
+        //run the calculations; stolab02    re the values. 
         distanceTrip1=countsTrip1*wheelDiameter*PI;
         //Above gives distance in inches
         //(for each count, a rotation of the wheel travels)

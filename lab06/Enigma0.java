@@ -37,7 +37,7 @@ public class Enigma0 {
       case 24: 
       case 25: System.out.println("Sum is 25");
       default:
-        System.out.println("To repeat, you entered "+n);
+        System.out.println("Again, you entered "+n);
     }
   }
 }

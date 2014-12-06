@@ -140,8 +140,6 @@ public class HW8{
         
     }
     
-    
-    
     //define main method
     public static void main(String []arg){
         
